@@ -1,0 +1,40 @@
+{
+  "name": "bitcoin-payment-gateway",
+  "version": "1.0.0",
+  "description": "crypto payment gateway",
+  "main": "www.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aangkc22/bitcoin-payment-gateway.git"
+  },
+  "author": "aangkc22",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bip32": "^2.0.6",
+    "bip38": "^3.1.1",
+    "bip39": "^3.0.2",
+    "bitcoinjs-lib": "^5.2.0",
+    "bitcore-mnemonic": "^8.23.0",
+    "bs58check": "^2.1.2",
+    "cors": "^2.8.5",
+    "create-hash": "^1.2.0",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "ethereumjs-util": "^7.0.7",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "hdkey": "^2.0.1",
+    "http": "0.0.1-security",
+    "http-status": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "request": "^2.88.2",
+    "uuid": "^8.3.1",
+    "webpack": "^5.3.2"
+  }
+}
